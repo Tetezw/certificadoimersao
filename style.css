@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Open+Sans&display=swap');
+@import url("https://font.googleapis.com/css2? family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,9,121,1) 32%, rgba(66,8,124,1) 100%); 
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: rgb(233,209,240);
+  background: radial-gradient(circle, rgba(233,209,240,1) 0%, rgba(206,199,236,1) 100%);
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.perfil {
+  display: flex;
+  
+}
+
+.perfil-foto {
+  border-radius: 50%;
+  border: 5px dashed #f1f1f1;
+  max-height: 180px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+.titulo {
+  margin-left: 20px;
+  margin-top: -25px;
+}
+
+.titulo h1 {
+  font-family: 'Ephesis', cursive;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.titulo h3 {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -20px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.perfil-redes {
+  margin-top: 5px;
+  max-height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size; 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: rgb(233,209,240);
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background: rgb(104,63,251);
+  background: radial-gradient(circle, rgba(104,63,251,1) 0%, rgba(125,52,209,1) 100%);
+  box-shadow: 6px 6px 6px #0e1d2f;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-top: 40px;
+  padding: 40px;
+  border: 10px double black;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: -30px;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+  
+}
+
+.projetos-item a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.dark .container {
+  background: #333439;
+  color: white;
+}
+
+.dark .container {
+  color: white;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
